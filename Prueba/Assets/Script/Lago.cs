@@ -6,6 +6,7 @@ public class Lago : MonoBehaviour
 {
     public Animator animator;
     public  static int aguapotable;
+    public GameObject colliderlago;
 
 
     // Start is called before the first frame update
@@ -13,6 +14,7 @@ public class Lago : MonoBehaviour
     {
         animator = GetComponent<Animator>();
          aguapotable = 0;
+         colliderlago.SetActive(true);
     }
 
     // Update is called once per frame
@@ -21,6 +23,7 @@ public class Lago : MonoBehaviour
         if (ScoreBasura.scorebasuratotalinfo >= 16 )
         {
             animator.SetBool("EtapaUno", true); 
+            colliderlago.SetActive(false);
         }
         if (ScoreBasura.scorebasuratotalinfo < 16 )
         {

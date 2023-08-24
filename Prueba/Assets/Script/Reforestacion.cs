@@ -11,11 +11,13 @@ public class Reforestacion : MonoBehaviour
     public GameObject tronco;
     public GameObject medArbol;
     public GameObject granArbol;
+     public GameObject flecha;
 
 
         public Slider slidertiempo;
         public float decreaseRate = 0.1f;
         public bool sumatiempo;
+
 
 
 
@@ -26,6 +28,7 @@ public class Reforestacion : MonoBehaviour
         tronco.SetActive(false);
         medArbol.SetActive(false);
         granArbol.SetActive(false);
+        flecha.SetActive(true);
         slidertiempo.gameObject.SetActive(false);
         sumatiempo =false;
 
@@ -43,6 +46,7 @@ public class Reforestacion : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" )
         slidertiempo.gameObject.SetActive(true);
+        flecha.SetActive(false);
                
 
         {
@@ -70,6 +74,10 @@ public class Reforestacion : MonoBehaviour
 
                 sumatiempo =true;
 
+                Agua.pointAgua -=1;
+
+
+
                 StartCoroutine(troncotime()); 
 
                 
@@ -84,6 +92,8 @@ public class Reforestacion : MonoBehaviour
                 slidertiempo.gameObject.SetActive(true);
 
                 sumatiempo =true;
+                Agua.pointAgua -=2;
+                 Abono.pointAbono -=1;
 
 
                 StartCoroutine(medArboltime());              
@@ -98,6 +108,8 @@ public class Reforestacion : MonoBehaviour
                 slidertiempo.gameObject.SetActive(true);
 
                 sumatiempo =true;
+                Agua.pointAgua -=3;
+                 Abono.pointAbono -=2;
 
                 StartCoroutine(grandArboltime());              
                 

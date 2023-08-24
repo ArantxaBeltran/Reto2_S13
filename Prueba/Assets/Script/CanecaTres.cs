@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CanecaTres : MonoBehaviour
 { 
-    public KeyCode interactKeydos;
+    public KeyCode interactKeytres = KeyCode.T;
     
 
 
@@ -15,7 +15,7 @@ public class CanecaTres : MonoBehaviour
         if (other.CompareTag("Player") &&   ScoreBasura.scorebasuratotalinfo > 0)
         {
 
-            if (Input.GetKey(interactKeydos) && BasuraTres.pointbasura > 0)
+            if (Input.GetKey(interactKeytres) && BasuraTres.pointbasura > 0)
            {
             
             BasuraDos.pointbasura--;

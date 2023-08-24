@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Caneca : MonoBehaviour
 {
-    public KeyCode interactKey;
+    public KeyCode interactKey = KeyCode.T;
    
 
 

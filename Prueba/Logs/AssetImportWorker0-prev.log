@@ -15,7 +15,7 @@ C:/Users/aranf/OneDrive/Escritorio/Pintura Digital/Cursos/Curso DdeVideojuegos/P
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59430
+60716
 Successfully changed project path to: C:/Users/aranf/OneDrive/Escritorio/Pintura Digital/Cursos/Curso DdeVideojuegos/Prueba
 C:/Users/aranf/OneDrive/Escritorio/Pintura Digital/Cursos/Curso DdeVideojuegos/Prueba
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/aranf/OneDrive/Escritorio/Pintura Digital/Cursos/Curso DdeVideojuegos/P
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 123.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 138.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006001 seconds.
+Registered in 0.009995 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 124.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 135.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.767 seconds
+- Completed reload, in  0.854 seconds
 Domain Reload Profiling:
-	ReloadAssembly (767ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (856ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (541ms)
-			LoadAssemblies (110ms)
+		EndReloadAssembly (525ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
+			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (318ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (319ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (124ms)
+				RefreshPlugins (135ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010119 seconds.
+Registered in 0.023011 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\aranf\OneDrive\Escritorio\Pintura Digital\Cursos\Curso DdeVideojuegos\Prueba\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\aranf\OneDrive\Escritorio\Pintura Digital\Cursos\Curso DdeVideojuegos\Prueba\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 127.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 117.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.976 seconds
+- Completed reload, in  1.588 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1977ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1589ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1710ms)
-			LoadAssemblies (195ms)
+		EndReloadAssembly (1358ms)
+			LoadAssemblies (171ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (424ms)
+			SetupTypeCache (343ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (984ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (723ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (128ms)
-				BeforeProcessingInitializeOnLoad (146ms)
-				ProcessInitializeOnLoadAttributes (596ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5704 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 56 unused Assets / (0.8 MB). Loaded Objects now: 6174.
 Memory consumption went from 236.0 MB to 235.2 MB.
-Total: 5.528700 ms (FindLiveObjects: 0.538100 ms CreateObjectMapping: 0.524600 ms MarkObjects: 4.079500 ms  DeleteObjects: 0.385000 ms)
+Total: 5.537200 ms (FindLiveObjects: 0.633400 ms CreateObjectMapping: 0.609800 ms MarkObjects: 3.868700 ms  DeleteObjects: 0.424200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,55 +160,301 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 512261.771477 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(d1e5ce8929f27e449805a9368a8c3157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(d1e5ce8929f27e449805a9368a8c3157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e8f93b65fc834b2e6f907e025a0118') in 0.012652 seconds 
+  Time since last request: 520273.083460 seconds.
+  path: Assets/Modelos/3d-model.fbx
+  artifactKey: Guid(eb5f07245fa2e6a4fba6d029be8079fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/3d-model.fbx using Guid(eb5f07245fa2e6a4fba6d029be8079fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0932c6f8f896c31ee274f7748f70a8eb') in 0.435017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.005714 seconds.
+  path: Assets/Prefabs/Pure Poly
+  artifactKey: Guid(2370e5b890d3495448eef1d6e63307d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pure Poly using Guid(2370e5b890d3495448eef1d6e63307d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a69addf1ac7477d6225a700c471a8bb') in 0.002198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.375844 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Hedge 1.prefab
+  artifactKey: Guid(e1ad4dab8b77e5e4cb90b7caec4532ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Hedge 1.prefab using Guid(e1ad4dab8b77e5e4cb90b7caec4532ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd754776f1b944581f7a93828ef8bea41') in 0.019808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 5.prefab
+  artifactKey: Guid(f5df276ca8db56049849b11899004d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 5.prefab using Guid(f5df276ca8db56049849b11899004d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e40d63c9e672e9554b84cd80068555') in 0.028760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 12.prefab
+  artifactKey: Guid(60276e840f2409647a7d366606f55005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 12.prefab using Guid(60276e840f2409647a7d366606f55005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03d84bd2c0702f93c48ad9a531d8d76') in 0.020872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 1.prefab
+  artifactKey: Guid(9e76e5193c4966c42a1088f204b70e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 1.prefab using Guid(9e76e5193c4966c42a1088f204b70e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad482b451a4eeb906d75321f468c1d72') in 0.016090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 6.prefab
+  artifactKey: Guid(c00575bbb9efcd740b13a035ce795a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 6.prefab using Guid(c00575bbb9efcd740b13a035ce795a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecc8a1b0b4388c7e4cfbe5f17ac63b1') in 0.016449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 6.prefab
+  artifactKey: Guid(535f7485ff0b12241827da63c536c0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 6.prefab using Guid(535f7485ff0b12241827da63c536c0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a13861a6cf0194002ec7ccdbb218a09') in 0.014349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 13.prefab
+  artifactKey: Guid(cb2174d77e42ed74d8794609d80e4bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 13.prefab using Guid(cb2174d77e42ed74d8794609d80e4bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d51f1983585606c793633474e9809a1') in 0.019120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 1.prefab
+  artifactKey: Guid(74a548f02121cb54eb43cb42314531f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Street Tree 1.prefab using Guid(74a548f02121cb54eb43cb42314531f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d378e27e40dadf1880e34633d01a3ab') in 0.016992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 2.prefab
+  artifactKey: Guid(d9fc690e52a26ad45947b8b0dbc5f2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 2.prefab using Guid(d9fc690e52a26ad45947b8b0dbc5f2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53578a14ad8052cd9bb4444aa8678e3') in 0.014855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 1.prefab
+  artifactKey: Guid(1e4f49afacfb1774db32a9b1f2e72e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 1.prefab using Guid(1e4f49afacfb1774db32a9b1f2e72e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777587e4f1f46582ef8c80d970fcc8d8') in 0.017587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 1.prefab
+  artifactKey: Guid(4d905b5f2664cf64b9a4c072f1b286f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Log 1.prefab using Guid(4d905b5f2664cf64b9a4c072f1b286f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0451df9c9821e951db7d2336d54eff52') in 0.017452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 9.prefab
+  artifactKey: Guid(6956dbfb44d2389469a0a8d9b83f3bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 9.prefab using Guid(6956dbfb44d2389469a0a8d9b83f3bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c66241c29b687e58ab8aa2619d7d6a') in 0.016980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Tree Trunk 2.prefab
+  artifactKey: Guid(5e71f9539db1ae246a25939dafb13650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Tree Trunk 2.prefab using Guid(5e71f9539db1ae246a25939dafb13650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fd7377e24f6aaf5937b3f474557ef6') in 0.015358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 14.prefab
+  artifactKey: Guid(4901a59201491854c8893f398c2d0c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 14.prefab using Guid(4901a59201491854c8893f398c2d0c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a932256edbf19d31bde5fbb0c97ef3ff') in 0.014820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 8.prefab
+  artifactKey: Guid(9cca81d8171e7e0459d94f8251680bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 8.prefab using Guid(9cca81d8171e7e0459d94f8251680bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946af771bf25d7b76d20fe505defeeee') in 0.016827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 5.prefab
+  artifactKey: Guid(35d91982422de864eafebd29f7b4e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 5.prefab using Guid(35d91982422de864eafebd29f7b4e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b410242f6ba0b8d1a1e7aa47a82999') in 0.017759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 10.prefab
+  artifactKey: Guid(221b274084495684db9bc9c630eb7155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 10.prefab using Guid(221b274084495684db9bc9c630eb7155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b5bb9dcc155fa4e393a72bde069a53') in 0.018955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 4.prefab
+  artifactKey: Guid(44deed2dab496bb4c853e5a63d0ef533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/Potted Plant 4.prefab using Guid(44deed2dab496bb4c853e5a63d0ef533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801f6b9c3b774f95ad6747f5e7268883') in 0.018194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 3.prefab
+  artifactKey: Guid(f2727472b344747408ea8dfb42ce1873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 3.prefab using Guid(f2727472b344747408ea8dfb42ce1873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce28d37df7dae1f36e2e62b5d337ac1') in 0.017884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 7.prefab
+  artifactKey: Guid(787481964fc05da4684124e8aaa924ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Prefabs/tree 7.prefab using Guid(787481964fc05da4684124e8aaa924ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2462ae0c875db0aa7f2b249761d911') in 0.016461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 250.907913 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Bush 1.fbx
+  artifactKey: Guid(bacdb87a78a3ca847a674df0ff9c059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Bush 1.fbx using Guid(bacdb87a78a3ca847a674df0ff9c059b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b386469c2b320dae4bb0ed6e30e87b30') in 0.029345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 2.fbx
+  artifactKey: Guid(aab7f31e374a03d44923a155620b8f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 2.fbx using Guid(aab7f31e374a03d44923a155620b8f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8623949d327486374c5434c840276dd8') in 0.035671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 2.fbx
+  artifactKey: Guid(937039ee4c2afba40b7f60a1296979ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 2.fbx using Guid(937039ee4c2afba40b7f60a1296979ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04553c42b41769e8e0566c5f8072d015') in 0.033083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 9.fbx
+  artifactKey: Guid(ed51741a845d2d64ab78c75da4ca0074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 9.fbx using Guid(ed51741a845d2d64ab78c75da4ca0074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9361cc31cff7d3540f38d070d09fb7c') in 0.042670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 4.fbx
+  artifactKey: Guid(470b640c540b8464597afebdc0417272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 4.fbx using Guid(470b640c540b8464597afebdc0417272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5585246a942d5d458ecf905c94b5af8a') in 0.036955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 14.fbx
+  artifactKey: Guid(b68611ee626df1946bbdc5220df5e906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 14.fbx using Guid(b68611ee626df1946bbdc5220df5e906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deee0570a3f4ce995adb5c740f55eea') in 0.038707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 6.fbx
+  artifactKey: Guid(08cf17a8204eccd4981de2725be44dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 6.fbx using Guid(08cf17a8204eccd4981de2725be44dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc90fa1cf210aea729067438b8c3c433') in 0.036642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 2.fbx
+  artifactKey: Guid(232e6aaee661287438043e59c3cedb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 2.fbx using Guid(232e6aaee661287438043e59c3cedb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c8306c6b986f8da273e6a8d5c713d6') in 0.032182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 5.fbx
+  artifactKey: Guid(00ce6d6f824e50e44a4d245ae8a0b40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 5.fbx using Guid(00ce6d6f824e50e44a4d245ae8a0b40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271d98cad3f90ae4317a8b9f61bff9fa') in 0.031099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 11.fbx
+  artifactKey: Guid(b32d6a4eef47c524ea9778bb8b6109c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 11.fbx using Guid(b32d6a4eef47c524ea9778bb8b6109c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502868404d54d9546df4409aa5169b13') in 0.035898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 8.fbx
+  artifactKey: Guid(82ea1707c0c9cf540b501f54133135ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 8.fbx using Guid(82ea1707c0c9cf540b501f54133135ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b81a5d5a3b278f25c5b13b815172b9d') in 0.036150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 16.fbx
+  artifactKey: Guid(61eb08920c935cd4cbd5c8e8a4940f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 16.fbx using Guid(61eb08920c935cd4cbd5c8e8a4940f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce708a74ca8c32d9dee0e8dc463c4b9f') in 0.043139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 10.fbx
+  artifactKey: Guid(0c4d1587c93977f438dc0f191fcd4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 10.fbx using Guid(0c4d1587c93977f438dc0f191fcd4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5348e7a37b2331fc4a7da179defb07') in 0.042680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 5.fbx
+  artifactKey: Guid(b58d7d85e23579e4f91d6393bef9cd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 5.fbx using Guid(b58d7d85e23579e4f91d6393bef9cd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c35accc560077eeea14cf3e796d3e3') in 0.038111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Hedge 2.fbx
+  artifactKey: Guid(e3a6f52526d23ab4fb6ef91b3b4853ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Hedge 2.fbx using Guid(e3a6f52526d23ab4fb6ef91b3b4853ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608883a25273ab848d9c5db2ea95eb3a') in 0.037819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 15.fbx
+  artifactKey: Guid(2dbbba970fc8ed04fa6287df22c72206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/tree 15.fbx using Guid(2dbbba970fc8ed04fa6287df22c72206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb56e51efe8b226306bff53d074628a') in 0.032622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 4.fbx
+  artifactKey: Guid(ab703e35c4b7808479708aec5fd060b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Street Tree 4.fbx using Guid(ab703e35c4b7808479708aec5fd060b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd29c85c98d6d2df3de9d534f4cd6ca6') in 0.038965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Log 1.fbx
+  artifactKey: Guid(55df51f98c0b08f46b8eee7d9ca67422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Log 1.fbx using Guid(55df51f98c0b08f46b8eee7d9ca67422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfb0d31c7afa6f4f9b86d27231ac87a') in 0.032412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 3.fbx
+  artifactKey: Guid(733ad951b45dfea4fb236faf6699ad40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature Pack - Low Polly Trees & Bushes/Models/Potted Plant 3.fbx using Guid(733ad951b45dfea4fb236faf6699ad40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eae2bf4181e6a5b0c4db30a6d28c8f5') in 0.033628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.900914 seconds.
+  path: Assets/Modelos/Abono.mat
+  artifactKey: Guid(dcec06e86a206244a9bc89b6d20e4232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/Abono.mat using Guid(dcec06e86a206244a9bc89b6d20e4232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581de305f169fe5ae98b08bbd83d183c') in 0.013275 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008413 seconds.
+Registered in 0.008393 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\aranf\OneDrive\Escritorio\Pintura Digital\Cursos\Curso DdeVideojuegos\Prueba\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\aranf\OneDrive\Escritorio\Pintura Digital\Cursos\Curso DdeVideojuegos\Prueba\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.065 seconds
+- Completed reload, in  2.653 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2065ms)
-		BeginReloadAssembly (199ms)
+	ReloadAssembly (2656ms)
+		BeginReloadAssembly (702ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (32ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1736ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (375ms)
+		EndReloadAssembly (1773ms)
+			LoadAssemblies (225ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (452ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (955ms)
+			SetupTypeCache (476ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (963ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (693ms)
-				ProcessInitializeOnLoadMethodAttributes (100ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (138ms)
+				ProcessInitializeOnLoadAttributes (626ms)
+				ProcessInitializeOnLoadMethodAttributes (169ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5614 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 6189.
-Memory consumption went from 227.6 MB to 226.8 MB.
-Total: 7.457000 ms (FindLiveObjects: 0.626700 ms CreateObjectMapping: 0.646500 ms MarkObjects: 5.620500 ms  DeleteObjects: 0.561700 ms)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 6232.
+Memory consumption went from 232.1 MB to 231.3 MB.
+Total: 7.207900 ms (FindLiveObjects: 0.519500 ms CreateObjectMapping: 0.358500 ms MarkObjects: 5.919100 ms  DeleteObjects: 0.409400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -224,48 +470,48 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009811 seconds.
+Registered in 0.008004 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\aranf\OneDrive\Escritorio\Pintura Digital\Cursos\Curso DdeVideojuegos\Prueba\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\aranf\OneDrive\Escritorio\Pintura Digital\Cursos\Curso DdeVideojuegos\Prueba\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.484 seconds
+- Completed reload, in  1.350 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1485ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (1351ms)
+		BeginReloadAssembly (168ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1225ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
+			SetupTypeCache (316ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (681ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (549ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (456ms)
-				ProcessInitializeOnLoadMethodAttributes (96ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5614 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 6204.
-Memory consumption went from 227.6 MB to 226.8 MB.
-Total: 3.627200 ms (FindLiveObjects: 0.406800 ms CreateObjectMapping: 0.335400 ms MarkObjects: 2.595900 ms  DeleteObjects: 0.288100 ms)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 6247.
+Memory consumption went from 232.1 MB to 231.4 MB.
+Total: 5.304700 ms (FindLiveObjects: 0.524100 ms CreateObjectMapping: 0.460300 ms MarkObjects: 3.945400 ms  DeleteObjects: 0.373600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -278,3 +524,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 807.678885 seconds.
+  path: Assets/Modelos/Abono.mat
+  artifactKey: Guid(dcec06e86a206244a9bc89b6d20e4232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelos/Abono.mat using Guid(dcec06e86a206244a9bc89b6d20e4232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad58b2c21a56117decab7f486096627') in 0.159425 seconds 

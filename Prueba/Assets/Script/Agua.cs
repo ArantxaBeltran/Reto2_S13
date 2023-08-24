@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Agua : MonoBehaviour
 {
      public  static float pointAgua;
-     public KeyCode interactKey;
+     public KeyCode interactKey = KeyCode.A;
      public bool aguaRecolectada;
+     public TextMeshProUGUI scoreAgua;
+
     
 
       void Start()
@@ -25,6 +28,7 @@ public class Agua : MonoBehaviour
             {
                 pointAgua +=1;
                 Debug.Log("Player detectado");
+                scoreAgua.text = ( "" + pointAgua);
                 aguaRecolectada = true;
                 
                 

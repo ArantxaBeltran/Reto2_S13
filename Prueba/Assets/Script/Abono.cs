@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Abono : MonoBehaviour
@@ -7,6 +8,8 @@ public class Abono : MonoBehaviour
     public  static float pointAbono;
      public KeyCode interactKey;
      public bool abonoRecolectada;
+     public TextMeshProUGUI scoreAbono;
+
     
 
       void Start()
@@ -26,10 +29,20 @@ public class Abono : MonoBehaviour
                 pointAbono +=1;
                 Debug.Log("Player detectado");
                 abonoRecolectada = true;
-                Destroy(gameObject);
+                scoreAbono.text = ( "" + pointAbono);
+                
                 
             }
             
         }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        
+                abonoRecolectada = false;
+                
+                
+     
+
+}
 }

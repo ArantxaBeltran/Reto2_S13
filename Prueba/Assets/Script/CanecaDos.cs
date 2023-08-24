@@ -5,7 +5,7 @@ using UnityEngine;
 public class CanecaDos : MonoBehaviour
 {
    
-    public KeyCode interactKeydos;
+    public KeyCode interactKeydos = KeyCode.T;
     
 
 

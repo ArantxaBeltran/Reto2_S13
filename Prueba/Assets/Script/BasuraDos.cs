@@ -5,7 +5,7 @@ using UnityEngine;
 public class BasuraDos : MonoBehaviour
 {
       public  static float pointbasura;
-     public KeyCode interactKey;
+     public KeyCode interactKey = KeyCode.T;
      public bool basurarecolectada;
       
 
@@ -21,7 +21,7 @@ public class BasuraDos : MonoBehaviour
         
 
         {
-            if (Input.GetKey(interactKey )&& basurarecolectada ==false  && pointbasura < 3)
+            if (Input.GetKey(interactKey )&& basurarecolectada ==false  && pointbasura < 6)
             {
                 pointbasura +=1;
                 ScoreBasura.scorebasuratotalinfo +=1;
