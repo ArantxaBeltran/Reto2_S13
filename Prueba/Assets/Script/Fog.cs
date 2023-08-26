@@ -37,7 +37,7 @@ public class Fog : MonoBehaviour
           {
 
 
-            yield return new WaitForSeconds(120f);
+            yield return new WaitForSeconds(150f);
             RenderSettings.fog = true;
             timertext.enabled=true;
             enmarchatime = true;
