@@ -50,6 +50,8 @@ public class Fog : MonoBehaviour
             yield return new WaitForSeconds(10f);
             RenderSettings.fog = false;
              timertext.enabled=false;
+             enmarchatime = false;
+
             timer.SetActive (false);
              
 
