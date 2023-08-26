@@ -33,7 +33,7 @@ public class Fog : MonoBehaviour
 
           IEnumerator FogTime()
     {
-          while (ScoreBasura.scorebasuratotalinfo < 30)
+          while (ScoreBasura.scorebasuratotalinfo < 25)
           {
 
 
