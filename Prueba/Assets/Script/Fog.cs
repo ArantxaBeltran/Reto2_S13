@@ -40,6 +40,7 @@ public class Fog : MonoBehaviour
             yield return new WaitForSeconds(120f);
             RenderSettings.fog = true;
             timertext.enabled=true;
+            enmarchatime = true;
             StartCoroutine( menosBasura());
            
 
@@ -57,7 +58,7 @@ public class Fog : MonoBehaviour
 
                 IEnumerator menosBasura()
     {
-        while (ScoreBasura.scorebasuratotalinfo > 0)
+        while (ScoreBasura.scorebasuratotalinfo > 0 && enmarchatime == true)
 
         {
          
