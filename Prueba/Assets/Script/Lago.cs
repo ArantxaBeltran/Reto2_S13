@@ -29,12 +29,12 @@ public class Lago : MonoBehaviour
         {
             animator.SetBool("EtapaUno", false);
         }
-        if (ScoreBasura.scorebasuratotalinfo >= 32 )
+        if (ScoreBasura.scorebasuratotalinfo >= 30 )
         {
             animator.SetBool("Etapados", true);
             aguapotable = 1;
         }
-         if (ScoreBasura.scorebasuratotalinfo < 32 )
+         if (ScoreBasura.scorebasuratotalinfo < 30 )
         {
             animator.SetBool("Etapados", false);
              aguapotable = 0;

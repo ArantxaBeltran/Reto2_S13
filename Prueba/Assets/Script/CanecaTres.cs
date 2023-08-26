@@ -18,7 +18,7 @@ public class CanecaTres : MonoBehaviour
             if (Input.GetKey(interactKeytres) && BasuraTres.pointbasura > 0)
            {
             
-            BasuraDos.pointbasura--;
+            BasuraTres.pointbasura--;
            }  
         }
 

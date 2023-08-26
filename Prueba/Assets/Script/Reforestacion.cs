@@ -21,6 +21,9 @@ public class Reforestacion : MonoBehaviour
 
 
 
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -110,6 +113,7 @@ public class Reforestacion : MonoBehaviour
                 sumatiempo =true;
                 Agua.pointAgua -=3;
                  Abono.pointAbono -=2;
+                 ScoreBasura.scorearbol ++;
 
                 StartCoroutine(grandArboltime());              
                 

@@ -33,10 +33,11 @@ public class CharacterMovemed : MonoBehaviour
         transform.Translate(0f,0f,vertical * Time.deltaTime*speedMovement);
         transform.Rotate(0f,horizontal * Time.deltaTime*speedRotation,0f);
 
-        if (Input.GetButtonDown("Jump") && canJump)
+        if (Input.GetButton("Jump") && canJump)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             canJump = false;
+            animator.SetBool("Jump",true);
         }
     }
 
@@ -50,6 +51,7 @@ public class CharacterMovemed : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             canJump = true;
+             animator.SetBool("Jump",false);
         }
     }
 }

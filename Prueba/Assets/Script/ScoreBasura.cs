@@ -9,15 +9,33 @@ public class ScoreBasura : MonoBehaviour
     public Slider scorebasura;
     public Slider scorebasurados;
     public Slider scorebasuratres;
+    public Image misioncum;
+    public Image insignia;
+
+    public List<Image> check;
     
   
     public TextMeshProUGUI scorebasuratotal;
     public static float scorebasuratotalinfo;
 
+
+    public static float scorearbol;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+           misioncum.enabled =false;
+           check[0].enabled = false;
+           check[1].enabled = false;
+           check[2].enabled = false;
+           check[3].enabled = false;
+           check[4].enabled = false;
+           check[5].enabled = false;
+           check[6].enabled = false;
+           insignia.enabled =false;
+
+
+
     }
 
     // Update is called once per frame
@@ -29,7 +47,89 @@ public class ScoreBasura : MonoBehaviour
         scorebasurados.value = BasuraDos.pointbasura;
         scorebasuratres.value = BasuraTres.pointbasura;
 
-        scorebasuratotal.text = (scorebasuratotalinfo+ " / 50");
+        scorebasuratotal.text = ( "Residuos: " + scorebasuratotalinfo);
+
+
+        if (scorebasuratotalinfo == 10 ) //mision uno animales
+        {
+            misioncum.enabled =true;
+             check[0].enabled = true;
+
+        }
+        else
+
+        {
+            misioncum.enabled =false;
+        }
+
+         if (scorebasuratotalinfo == 30 ) //mision dos niebla/lago/reforestacion
+        {
+            misioncum.enabled =true;
+            check[1].enabled = true;
+            check[2].enabled = true;
+            check[3].enabled = true;
+
+        }
+        else
+
+        {
+            misioncum.enabled =false;
+        }
+           if (scorebasuratotalinfo == 40 ) //mision de animales totales
+        {
+            misioncum.enabled =true;
+            check[5].enabled = true;
+
+        }
+        else
+
+        {
+            misioncum.enabled =false;
+        }
+
+           if (scorebasuratotalinfo == 105 ) //mision basura total
+        {
+            misioncum.enabled =true;
+            check[6].enabled = true;
+
+        }
+        else
+
+        {
+            misioncum.enabled =false;
+        }
+
+           if (scorebasuratotalinfo >= 5 ) //mision arboles
+        {
+            misioncum.enabled =true;
+            check[4].enabled = true;
+
+        }
+        else
+
+        {
+            misioncum.enabled =false;
+        }
+
+
+
+        if (scorebasuratotalinfo == 105 && scorebasuratotalinfo >= 5  ) //mision uno animales
+        {
+            insignia.enabled =true;
+             
+
+        }
+        else
+
+        {
+            insignia.enabled =false;
+        }
+        
+        
+
+
+
+
 
 
 
