@@ -32,6 +32,8 @@ public class CambiodeEscena : MonoBehaviour
    {
             
         SceneManager.LoadScene(sceneName);
+        LivePlayer. playerSalud = 100;
+
        
    }
 
@@ -66,6 +68,7 @@ public class CambiodeEscena : MonoBehaviour
         CraftingDos.pointbasuracrafdos=0;
         CraftingTres.pointbasuracraftres=0;
         AguaN2.pointAgua=0;
+        LivePlayer. playerSalud = 100;
 
 
 

@@ -7,10 +7,16 @@ public class LivePlayer : MonoBehaviour
 {  
     public Slider sliderSalud;
     public static float playerSalud = 100;
+    public GameObject loselive;
+    public Animator animator;
+    public string cliplose;
 
     // Start is called before the first frame update
     void Start()
     {
+        loselive.SetActive(false);
+        animator= GetComponent<Animator>();
+        Time.timeScale = 1f;
         
     }
 
@@ -18,5 +24,23 @@ public class LivePlayer : MonoBehaviour
     void Update()
     {
         sliderSalud.value = playerSalud;
+
+        if (playerSalud <= 0)
+        {
+            animator.Play(cliplose);
+
+            loselive.SetActive(true);
+
+            Time.timeScale = 0f;
+
+
+           
+
+        }
+
+        else 
+        {
+            loselive.SetActive(false);
+        }
     }
 }

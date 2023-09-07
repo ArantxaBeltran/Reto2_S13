@@ -13,6 +13,8 @@ public class CharacterMovemed : MonoBehaviour
     private Rigidbody rb;
     public bool canJump ;
 
+    
+
 
     private Animator animator;
 
@@ -20,10 +22,13 @@ public class CharacterMovemed : MonoBehaviour
     {
         animator= GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
+
+
     }
 
      void Update()
     {
+
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
@@ -38,6 +43,12 @@ public class CharacterMovemed : MonoBehaviour
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             canJump = false;
             animator.SetBool("Jump",true);
+        }
+
+        if (LivePlayer.playerSalud <= 0)
+        {
+            speedMovement =0f;
+            speedRotation=0f;
         }
     }
 

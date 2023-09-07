@@ -16,6 +16,7 @@ public class ScoreBauraNiveldos : MonoBehaviour
     public TextMeshProUGUI pointCraf;
      public TextMeshProUGUI pointCrafdos;
      public TextMeshProUGUI pointCraftres;
+     
 
     public List<Image> check;
     
@@ -38,7 +39,7 @@ public class ScoreBauraNiveldos : MonoBehaviour
            check[5].enabled = false;
            check[6].enabled = false;
            misioncum.enabled = false;
-           calidadAire.value =0;
+           calidadAire.value = 0;
           
     
            insignia.enabled =false;
