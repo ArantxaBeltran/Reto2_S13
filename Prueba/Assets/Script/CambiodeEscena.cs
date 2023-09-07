@@ -51,6 +51,22 @@ public class CambiodeEscena : MonoBehaviour
         BasuraTres.pointbasura = 0;
         Abono.pointAbono=0;
         Agua.pointAgua=0;
+        ScoreBauraNiveldos.scorebasuratotalinfo = 0;
+        GreenHouses.pointGreen=0;
+        Charcos.pointcharco=0;
+        ContadorEnergia.pointcaja=0;
+        TurbinaEolica.pointturb=0;
+        BasuraUnoN2.pointbasura=0;
+        BasuraDosN2.pointbasura=0;
+        BasuraTresN2.pointbasura=0;
+        Crafting.pointbasura=0;
+        CraftingDos.pointbasurados=0;
+        CraftingTres.pointbasuratres=0;
+        Crafting.pointbasuracraf=0;
+        CraftingDos.pointbasuracrafdos=0;
+        CraftingTres.pointbasuracraftres=0;
+        AguaN2.pointAgua=0;
+
 
 
    }
@@ -83,6 +99,13 @@ public class CambiodeEscena : MonoBehaviour
     {
         escscreen.SetActive(false);
         jugando = true;
+
+    }
+
+    public void Jugarescena()
+    {
+        escscreen.SetActive(false);
+        Time.timeScale = 1f;
 
     }
 

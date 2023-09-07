@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded333a0e5fbfad40a451ce32aa74da4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: EcoPower
+  sceneName: EcoPower 1
   sceneNameInicio: Inicio
   escscreen: {fileID: 1629296788}
   interactKey: 0
