@@ -14,4 +14,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EcoPower 1.unity
     guid: 5c2c277efae688f4182035179f6fa20d
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: e8ce527e3b8e7bc47b6bd3bd80121838, type: 2}

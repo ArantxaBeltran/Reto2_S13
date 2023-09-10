@@ -1,15 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 using UnityEngine;
 
 public class CambiodeEscena : MonoBehaviour
 {
     public string sceneName;
+    public GameObject botonsalir;
     public string sceneNameInicio;
     public GameObject escscreen;
     public KeyCode interactKey;
     public bool jugando;
+    public static bool esc = false;
+    private PlayerControls controls; // Referencia al mapa de acciones
+
+    private void Awake()
+    {
+        controls = new PlayerControls();
+    }
 
 
 
@@ -22,7 +32,12 @@ public class CambiodeEscena : MonoBehaviour
 
     void Update()
     {
-      Esc();
+       if (controls.Player.Esc.triggered)
+        {
+            Esc();
+        }
+       
+     
     }
 
 
@@ -32,8 +47,6 @@ public class CambiodeEscena : MonoBehaviour
    {
             
         SceneManager.LoadScene(sceneName);
-        LivePlayer. playerSalud = 100;
-
        
    }
 
@@ -74,6 +87,7 @@ public class CambiodeEscena : MonoBehaviour
 
    }
 
+
    public void Inicio()
    {
       SceneManager.LoadScene(sceneNameInicio);
@@ -81,19 +95,13 @@ public class CambiodeEscena : MonoBehaviour
 
    public void Esc()
    {
-     if  (Input.GetKey(interactKey))
-     {
-          escscreen.SetActive(true);
+
+           escscreen.SetActive(true);
            Time.timeScale = 0f;
            jugando = false;
-     }
-
-     else if (jugando == true)
-
-      {
-           Time.timeScale = 1f;
-      }
-
+           EventSystem.current.SetSelectedGameObject(null); 
+           EventSystem.current.SetSelectedGameObject(botonsalir);
+           esc=true;
      
 
 
@@ -101,6 +109,7 @@ public class CambiodeEscena : MonoBehaviour
     public void salirboton()
     {
         escscreen.SetActive(false);
+        Time.timeScale = 1f;
         jugando = true;
 
     }

@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
+
 using UnityEngine;
 
 public class Ventanas : MonoBehaviour
@@ -8,12 +10,17 @@ public class Ventanas : MonoBehaviour
     public GameObject instruc;
     public GameObject creditos;
     public GameObject mapa;
+     public GameObject botonsalirmisiones;
+     public GameObject botonsalirins;
+     
+    
     // Start is called before the first frame update
     void Start()
     {
         misiones.SetActive(false);
         instruc.SetActive(false);
         mapa.SetActive(false);
+
     
     }
 
@@ -27,13 +34,17 @@ public class Ventanas : MonoBehaviour
     {
 
         misiones.SetActive(true);
-        
+         EventSystem.current.SetSelectedGameObject(null); 
+        EventSystem.current.SetSelectedGameObject(botonsalirmisiones);
+                
     }
 
      public void Instrucboton()
     {
 
         instruc.SetActive(true);
+         EventSystem.current.SetSelectedGameObject(null); 
+        EventSystem.current.SetSelectedGameObject(botonsalirins);
         
     }  
 
@@ -44,6 +55,7 @@ public class Ventanas : MonoBehaviour
     instruc.SetActive(false);
     creditos.SetActive(false);
     mapa.SetActive(false);
+   
 
         
     } 
@@ -51,7 +63,12 @@ public class Ventanas : MonoBehaviour
     {
 
         mapa.SetActive(true);
+         
         
-    }  
+    } 
+ 
+
+  
 
 }
+
